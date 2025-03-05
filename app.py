@@ -2,9 +2,9 @@ import google.generativeai as genai
 genai.configure(api_key="AIzaSyAXKWbdKm4irghGA1PA3gl7SLdK4KUWxC8")
 import streamlit as st
 import os
-# Removed Google Gemini imports since we'll simulate a response
 
-# Simulated response function (since I can't access external APIs directly)
+
+
 def get_simulated_response(question):
     # This is a placeholder - in a real scenario, this would call an actual API
     response = f"""
