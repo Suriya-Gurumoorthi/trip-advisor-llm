@@ -6,7 +6,7 @@ load_dotenv()
 
 os.environ['GEMINI_API_KEY'] = os.getenv("GEMINI_API_KEY")
 
-genai.configure(api_key="AIzaSyAXKWbdKm4irghGA1PA3gl7SLdK4KUWxC8")
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 model = genai.GenerativeModel("gemini-1.5-pro-latest")
 def get_gemini_response(question):
