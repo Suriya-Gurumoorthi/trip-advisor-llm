@@ -49,3 +49,8 @@ This tool isn’t just a scheduler — it **combines multiple data sources** and
 
 ---
 
+## 📬 Contact
+
+Feel free to connect with me on [LinkedIn](www.linkedin.com/in/suriyagurumoorthi) or reach out via email for suggestions, or feedback!
+
+
